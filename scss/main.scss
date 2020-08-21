@@ -1,0 +1,153 @@
+body {
+	font-family: Roboto Condensed;
+  	font-size: 1rem;
+  	font-weight: 300;
+  	letter-spacing: .05rem;
+  	background: #80bfff;
+}
+p {
+	text-align: left;
+	font-family: Roboto Condensed;
+	color: black;
+}
+.text-bold {
+	font-weight: bold;
+}
+.padding-top {
+	padding-top: 40px;
+}
+.text-decoration {
+	text-decoration: none ;
+}
+.text-black {
+	color: black;
+	font-weight: 400;
+}
+.text-hover:hover {
+	background: #80bfff !important;
+}
+
+@for $i from 2 through 6{
+	h#{$i} {
+		font-family: Roboto Condensed;;
+		font-weight: 500 ;
+		line-height: 1.5 ;
+		text-align: center;
+		color: white;
+	}	
+}
+h1 {
+	font-family: Roboto Condensed;
+	font-weight: 800 ;
+	line-height: 1.5 ;
+	text-align: center;
+	padding-top: 150px;
+	color: black;
+}
+
+
+.navbar {
+	background-color: black !important;
+	height: 80px;
+	.navbar-toggler {
+		background-color: #80bfff; 
+	}
+	.navbar-brand {
+		font-family: 'roboto', sans-serif;
+		color: white;
+		text-decoration: none !important;
+	}
+	.nav-link {
+		font-family: 'roboto', sans-serif;
+		letter-spacing: 2px;
+		
+	}
+	.nav-link:hover {
+			color: yellow !important;
+	}
+}
+ul {
+	list-style: none;
+	li {
+		font-family: 'roboto', sans-serif;
+		font-weight: 200 ; 
+		line-height: 1.6 !important;
+		font-size: 1rem;
+	}
+	a {
+		color: white;	
+	}
+	a:hover {
+		color: yellow !important;
+		text-decoration: none;
+	}
+}
+
+.bg-black {
+  background: black;
+}
+
+i{
+  letter-spacing: 1rem;
+  font-size: 30px;
+  }
+.b-color-black {
+	text-transform: uppercase;
+	background: black;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+	text-decoration: none;
+}
+  
+footer {
+	font-family: 'roboto', sans-serif;
+	padding-top: 50px;
+	background: transparent;	
+}
+
+@media (max-width:768px) {
+	
+	h1 {
+		font-family: Roboto Condensed;
+		font-weight: 800 ;
+		line-height: 1.5 ;
+		font-size: 25px;
+		text-align: center;
+		padding-top: 70px;
+		color: black;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 17px;
+	}
+	
+	.navbar {
+		background-color: black;
+		height: 60px;		
+	}
+	.navbar-collapse {
+		background: black !important;
+		text-align: center;
+	}
+	.container-fluid {
+		padding-top: 5px !important;
+	}
+	
+	footer {
+		padding-left: 0;
+	}	
+	.navbar-brand {
+		color:#80bfff;
+	}
+}
+@media (max-width:1024px) {
+	.nav-link {
+		font-family: 'roboto', sans-serif;
+		letter-spacing: 2px;
+		font-size: 13px;
+	}
+}
